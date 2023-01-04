@@ -1,8 +1,10 @@
 import { SafeAreaView } from "react-native"
 import React from "react";
 import Card, { CardColor } from "../components/Card";
+import UserGet from "../components/user/UserGet";
 
 const MainScreen: React.FC = () => {
+
 
     return (
         <SafeAreaView style={{ flex: 1 }}>
@@ -12,6 +14,7 @@ const MainScreen: React.FC = () => {
                 height={200}
                 onClick={(value) => console.log('value', value)}
             /> */}
+            <UserGet />
         </SafeAreaView>
     )
 }

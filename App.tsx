@@ -1,6 +1,6 @@
-import MainScreen from "./src/mainScreen/mainScreen"
+import MainScreen from "./src/mainScreen/MainScreen"
 
-const App = () => {
+const App : React.FC = () => {
   return <MainScreen />
 }
 
