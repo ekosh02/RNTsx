@@ -1,7 +1,7 @@
-import { View } from "react-native"
+import MainScreen from "./src/mainScreen/mainScreen"
 
 const App = () => {
-  return <View></View>
+  return <MainScreen />
 }
 
 export default App
